@@ -13,6 +13,7 @@ There are two parts of this project.
       > MOV A,D</br>
       > ORA E</br>
       > JNZ UP</br>
+      
      This routine ensures that we get a delay of 10ms.
   *  The data field of the display shows 1/100th second value while address field shows the minute and seconds values. When the data field value   reaches 63H (or 100), we need to update seconds while make data field to zero.
   * When the seconds field reaches 59, we need to update the minute field and make seconds zero.
@@ -28,5 +29,6 @@ There are two parts of this project.
 
 
   This project was made by
+  
     * Srijan Sankrit (https://github.com/sankr170104072) - Team Leader
     * Sarvesh Choushetti (https://github.com/choushetti)
