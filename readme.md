@@ -1,12 +1,12 @@
 ## Stopwatch based on Microprocessor 8085 with PAUSE-RESET-START functions.
 #### This project was made using MICROFRIEND DYNA-85
-###### Microfriend  DYNA-85  is  an  introduction  to  a  low cost trainer and  development kit. It was developed to assist the novice to get familiar with  INTEL  8085  microprocessor in  a user friendly environments.
+###### Microfriend  DYNA-85  is  an  introduction  to  a  low cost trainer and  development kit. It was developed to assist the novice to get familiar with  INTEL  8085  microprocessor in  a user friendly environment.
 
 There are two parts of this project.
 
 ### First part : NORMAL STOPWATCH
 
-  *  The stopwatch displayed time in **minutes,seconds and 1/100th of a second** format.
+  *  The stopwatch displayed time in **minutes, seconds and 1/100th of a second** format.
   *  We need a delay of **10 ms** for the 1/100th second values, so we wrote a routine to implement that.
       > LXI D,04E2</br>
       > UP : DCX D</br>
@@ -15,8 +15,8 @@ There are two parts of this project.
       > JNZ UP</br>
       
      This routine ensures that we get a delay of 10ms.
-  *  The data field of the display shows 1/100th second value while address field shows the minute and seconds values. When the data field value   reaches 63H (or 100), we need to update seconds while make data field to zero.
-  * When the seconds field reaches 59, we need to update the minute field and make seconds zero.
+  *  The data field of the display shows 1/100th second value while address field shows the minutes and seconds value. When the data field value   reaches 63H (or 100), we need to update seconds while making data field zero.
+  * When the seconds field reaches 59, we need to update the minutes field and make seconds zero.
   * when the stopwatch reaches 59:59:99 , we just jump back to the beginning (i.e. 00:00:00).
 
 ### Second part : INTERRUPT ROUTINE
