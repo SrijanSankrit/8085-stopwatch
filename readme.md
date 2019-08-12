@@ -28,7 +28,6 @@ There are two parts of this project.
   * When we press VI for the third time, this is the **START** mode, where we just return to the stopwatch routine and thus, continue the flow of the stopwatch code and value of B register goes back to 00H.
 
 
-  This project was made by
-  
-    * Srijan Sankrit (https://github.com/sankr170104072) - Team Leader
-    * Sarvesh Choushetti (https://github.com/choushetti)
+  This project was made by</br>
+     Srijan Sankrit (https://github.com/sankr170104072) - Team Leader</br>
+     Sarvesh Choushetti (https://github.com/choushetti)</br>
