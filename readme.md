@@ -8,13 +8,11 @@ There are two parts of this project.
 
   *  The stopwatch displayed time in **minutes,seconds and 1/100th of a second** format.
   *  We need a delay of **10 ms** for the 1/100th second values, so we wrote a routine to implement that.
-      '''
-      LXI D,04E2
-      UP : DCX D
-      MOV A,D
-      ORA E
-      JNZ UP
-      '''
+      > LXI D,04E2
+      > UP : DCX D
+      > MOV A,D
+      > ORA E
+      > JNZ UP
      This routine ensures that we get a delay of 10ms.
   *  The data field of the display shows 1/100th second value while address field shows the minute and seconds values. When the data field value   reaches 63H (or 100), we need to update seconds while make data field to zero.
   * When the seconds field reaches 59, we need to update the minute field and make seconds zero.
