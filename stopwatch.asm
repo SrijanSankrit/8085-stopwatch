@@ -1,5 +1,5 @@
 # 8085 micrpoprocessor based stopwatch code
-# CODE starts at address D000
+
 LXI SP, FEFF
 MVI A, 1BH
 SIM
