@@ -1,6 +1,6 @@
 ## Stopwatch based on Microprocessor 8085 with PAUSE-RESET-START functions.
 #### This project was made using MICROFRIEND DYNA-85
-###### Microfriend  DYNA-85  is  an  introduction  to  a  low cost trainer and  development kit. It was developed to assist the novice to get familiar with  INTEL  8085  microprocessor in  a user friendly environment.
+Microfriend  DYNA-85  is  an  introduction  to  a  low cost trainer and  development kit. It was developed to assist the novice to get familiar with  INTEL  8085  microprocessor in  a user friendly environment.
 
 There are two parts of this project.
 
