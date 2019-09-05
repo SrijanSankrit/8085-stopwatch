@@ -29,5 +29,5 @@ There are two parts of this project.
 
 
   This project was made by</br>
-     Srijan Sankrit (https://github.com/sankr170104072) - Team Leader</br>
+     Srijan Sankrit (https://github.com/SrijanSankrit) - Team Leader</br>
      Sarvesh Choushetti (https://github.com/choushetti)</br>
